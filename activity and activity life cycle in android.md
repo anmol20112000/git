@@ -25,7 +25,7 @@
 
 6.  onDestroy()
 
-> ![](media/image1.png){width="5.441666666666666in" height="5.2in"}
+ <img src "https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/08/Activity-Life-Cycle-Android-Activity-Life-Cycle-Edureka-1.png">
 
 1.  * onCreate()*: It displays the UI given in the XML file when the
     activity starts . It calls the SetContentView() method.
