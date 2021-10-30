@@ -1,9 +1,9 @@
--  ## What is activity in android?
+-  # **What is activity in android?**
 
     An activity is a single, focused thing that the user can do. Almost all activities interact with the user. An Android app may contain one or more activities,
     meaning one or more screens. The Android app starts by showing the main activity, and from there the app may make it possible to open additional activities.
 
--  ## What is activity life cycle in android?
+-  # **What is activity life cycle in android?**
 
 > An activity has various stages in its lifecycle. To transit from one stage to the other stage of the activity lifecycle activity class has six methods which are 
   overided by the developers according to the need. These methods are termed as callbacks. The six callbacks are :
