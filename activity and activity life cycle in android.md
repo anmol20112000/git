@@ -1,4 +1,4 @@
-   #                                             *Activity and Activity LifeCycle*
+   #                                             <hr>*Activity and Activity LifeCycle*</hr>
 
 
 
