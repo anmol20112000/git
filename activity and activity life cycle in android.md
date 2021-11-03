@@ -50,7 +50,9 @@
 ### 6.  *onDestroy():* 
   >  onDestroy callback is to be called when you need to shutdown all the operations .
 
-## *Starting Activities and Getting Results*
+<hr>  </hr>
+
+## **Starting Activities and Getting Results**
 
    >  The *startActivity(Intent)* method is used to start a new activity,which will be placed at the top of the activity stack. It takes a single argument,an 
    >  [*Intent*](https://developer.android.com/reference/android/content/Intent),which describes the activity to be executed.
