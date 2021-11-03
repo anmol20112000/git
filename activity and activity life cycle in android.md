@@ -1,6 +1,4 @@
-
-                                                         # *Actvity and Activity LifeCycle*
-
+   #  *Actvity and Activity LifeCycle*
 
 
 ## **What is activity in android?**
