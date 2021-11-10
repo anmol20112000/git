@@ -7,13 +7,12 @@
  
 # <hr> For this you need to create an XML file inside "res/menu/popup" like this: </hr>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >  
-     <item         
+    <item         
        android:id="@+id/one"  
      android:title="Android"/>  
     <item  
         android:id="@+id/two"  
         android:title="BlackBerry"/>  
-  
     <item  
         android:id="@+id/three"  
         android:title="Apple"/>   
@@ -31,7 +30,7 @@
     tools:context=".MainActivity"  
     android:background="#fdacbd">  
    
-    <Button  
+<Button  
         android:id="@+id/button"  
         android:layout_width="wrap_content"  
         android:layout_height="wrap_content"  
@@ -69,6 +68,7 @@
 In this, you create the id of the button on which you pop up the menu. Now you will crate the instance of the PopUp menu, then 
 you will populate.
 
+
 package com.popupmenu;  
    
 import android.os.Bundle;  
@@ -82,15 +82,16 @@ import android.widget.PopupMenu;
 import android.widget.Toast;  
 public class MainActivity extends Activity {  
     Button button;  
-   
-    @Override  
-    protected void onCreate(Bundle savedInstanceState) {  
+  
+  
+  @Override  
+  protected void onCreate(Bundle savedInstanceState) {  
         super.onCreate(savedInstanceState);  
         setContentView(R.layout.activity_main);  
         button = (Button) findViewById(R.id.button);  
         button.setOnClickListener(new OnClickListener() {  
    
-            @Override  
+     @Override  
             public void onClick(View v) {  
                 //Creating the instance of PopupMenu  
                 PopupMenu popupMenu = new PopupMenu(MainActivity.this, button);  
@@ -107,7 +108,9 @@ public class MainActivity extends Activity {
             }  
         });//closing the setOnClickListener method  
     }  
-} 
+}
+
+
 
 
 
@@ -121,11 +124,11 @@ public class MainActivity extends Activity {
     android:versionCode="1"  
     android:versionName="1.0" >  
    
-    <uses-sdk  
+<uses-sdk  
         android:minSdkVersion="7"  
         android:targetSdkVersion="16" />  
    
-    <application  
+<application  
         android:allowBackup="true"  
         android:icon="@drawable/ic_launcher"  
         android:label="@string/app_name"  
@@ -136,7 +139,7 @@ public class MainActivity extends Activity {
             <intent-filter>  
                 <action android:name="android.intent.action.MAIN" />  
    
-                <category android:name="android.intent.category.LAUNCHER" />  
+<category android:name="android.intent.category.LAUNCHER" />  
             </intent-filter>  
         </activity>  
     </application>  
