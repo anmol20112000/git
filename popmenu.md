@@ -7,7 +7,7 @@
  
 # <hr> For this you need to create an XML file inside "res/menu/popup" like this: </hr>
 <<<<<<< HEAD
-``` <menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+```<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
     <item         
 =======
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >  
@@ -22,14 +22,15 @@
     <item  
         android:id="@+id/three"  
         android:title="Apple"/>   
-</menu>```
+</menu>
+```
 
 ## <hr> Step 1 </hr>
 
 ## **Create an XML file with this:**
 
 
-```<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+``` <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
     xmlns:tools="http://schemas.android.com/tools"  
     android:layout_width="match_parent"  
     android:layout_height="match_parent"  
@@ -46,7 +47,8 @@
         android:layout_marginTop="80dp"  
         android:text="Show Popup" />  
    
-</RelativeLayout>```
+</RelativeLayout>
+```
 
 
 
@@ -64,7 +66,8 @@
     <item  
         android:id="@+id/three"  
         android:title="Apple"/>  
-</menu> ```
+</menu>
+ ```
 
 
 ## <hr> Step 3 </hr>
@@ -117,13 +120,10 @@ public class MainActivity extends Activity {
             }  
         });//closing the setOnClickListener method  
     }  
-<<<<<<< HEAD
-}```
+}
+```
 
 
-=======
-} 
->>>>>>> 8d558f78494aff2faa8a86d27fdb522f0ec6ae78
 
 
 
@@ -157,7 +157,8 @@ public class MainActivity extends Activity {
         </activity>  
     </application>  
    
-</manifest> ```
+</manifest>
+ ```
 
 
 ## <hr >Step 5 </hr>
