@@ -7,7 +7,8 @@
  
 # <hr> For this you need to create an XML file inside "res/menu/popup" like this: </hr>
 <<<<<<< HEAD
-```<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+```
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
     <item         
 =======
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >  
@@ -30,7 +31,8 @@
 ## **Create an XML file with this:**
 
 
-``` <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+``` 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
     xmlns:tools="http://schemas.android.com/tools"  
     android:layout_width="match_parent"  
     android:layout_height="match_parent"  
@@ -56,7 +58,8 @@
 
 ## **Create another XML file with this:**
 
-``` <menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+```
+ <menu xmlns:android="http://schemas.android.com/apk/res/android" >  
     <item  
         android:id="@+id/one"  
         android:title="Android"/>  
@@ -79,7 +82,8 @@ you will populate.
 
 <<<<<<< HEAD
 
-``` package com.popupmenu;  
+``` 
+package com.popupmenu;  
 =======
 package com.popupmenu;  
 >>>>>>> 8d558f78494aff2faa8a86d27fdb522f0ec6ae78
@@ -131,7 +135,8 @@ public class MainActivity extends Activity {
 
 ## **Android Manifest.xml file**
 
-``` <?xml version="1.0" encoding="utf-8"?>  
+``` 
+<?xml version="1.0" encoding="utf-8"?>  
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"  
     package="com.popupmenu"  
     android:versionCode="1"  
