@@ -5,15 +5,11 @@
  PopUp menu is a type of menu that contains a menu and displays that menu below the anchor text if space is available. If the space 
  is not available then it displays it above the Anchor text. It appears untill when you do not click on the pop-up menu text.
  
-# <hr> For this you need to create an XML file inside "res/menu/popup" like this: </hr>
-<<<<<<< HEAD
-```
+# <hr> For this you need to create an `XML` file inside `"res/menu/popup"` like this: </hr>
+> XML Code:
+```XML
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >  
     <item         
-=======
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
-     <item         
->>>>>>> 8d558f78494aff2faa8a86d27fdb522f0ec6ae78
        android:id="@+id/one"  
      android:title="Android"/>  
     <item  
@@ -28,10 +24,10 @@
 
 ## <hr> Step 1 </hr>
 
-## **Create an XML file with this:**
+## **Create an `XML` file with this:**
 
-
-``` 
+> XML Code:
+```XML
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
     xmlns:tools="http://schemas.android.com/tools"  
     android:layout_width="match_parent"  
@@ -56,9 +52,10 @@
 
 ## <hr> Step 2 </hr>
 
-## **Create another XML file with this:**
+## **Create another `XML` file with this:**
 
-```
+> XML Code:
+```XML
  <menu xmlns:android="http://schemas.android.com/apk/res/android" >  
     <item  
         android:id="@+id/one"  
@@ -75,18 +72,14 @@
 
 ## <hr> Step 3 </hr>
 
-## **Create a Java class file and with the following.**
+## **Create a `Java` class file and with the following.**
  
 In this, you create the id of the button on which you pop up the menu. Now you will crate the instance of the PopUp menu, then 
 you will populate.
 
-<<<<<<< HEAD
-
-``` 
+> JAVA Code:
+```java
 package com.popupmenu;  
-=======
-package com.popupmenu;  
->>>>>>> 8d558f78494aff2faa8a86d27fdb522f0ec6ae78
    
 import android.os.Bundle;  
 import android.app.Activity;  
@@ -135,7 +128,8 @@ public class MainActivity extends Activity {
 
 ## **Android Manifest.xml file**
 
-``` 
+> XML Code:
+``` xml
 <?xml version="1.0" encoding="utf-8"?>  
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"  
     package="com.popupmenu"  
